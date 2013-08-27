@@ -1,0 +1,371 @@
+body
+{
+	font-size: 20px;
+	background-color: #ccc;
+	background-image: url('../img/greyzz.png');
+	width: 100%;
+}
+
+h1
+{
+	background: url('../img/outlets.png');
+	background-color: rgba(0,0,0,.8);
+	box-shadow: 0 3px 5px #333;
+	color: #fff;
+	font-family: "commando";
+	position: relative;
+	padding: 10px 0 0 0;
+	margin: 0;
+	text-align: center;
+}
+header
+{
+	
+	height: 50px;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+header img
+{
+	width: 45px;
+}
+
+header h2
+{
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+	vertical-align: top;
+	width: 80%;
+}
+
+#bmenu
+{
+	background-color: rgba(0, 0, 0, .8);
+	border-radius: 5px;
+	box-shadow: 0 0 5px #666;
+	bottom: 10px;
+	color: #fff;
+	height: 42px;
+	font-size: 2em;
+	left: 10px;
+	padding: 8px 0 0 0;
+	position: fixed;
+	text-align: center;
+	width: 50px;
+	z-index: 2;
+}
+
+#contenido
+{
+	text-align: center;
+}
+
+#map
+{
+	margin: 1em auto;
+	height: 300px;
+	width: 90%;
+}
+
+#menu
+{
+	background-color: rgba(0,0,0,.8);
+	color:#fff;
+	height: 100%;
+	left: -100%;
+	position: fixed;
+	transition: all linear .1s;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+}
+
+#menu h2
+{
+	border-bottom: 1px solid #ccc;
+	background-color: #000;
+	padding-top: 1em;
+	margin: 0;
+	font-style: italic;
+}
+
+#metrobus, #opciones
+{
+	font-size: 4.1em;
+}
+
+#metro, #trenligero
+{
+	font-size: 5em;
+}
+
+
+#menu .b
+{
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #000;
+	display: inline-block;
+	color: #454545;
+	text-align: center;
+	height: 100px;
+	margin: 0.3em;
+	vertical-align: middle;
+	width: 100px;
+}
+
+
+#menu .back
+{
+	background-color: #ccc;
+	border-radius: 5px;
+	display: inline-block;
+	color: #454545;
+	float: right;
+	font-size: 2.5em;
+	height: 50px;
+	width: 50px;
+}
+
+#ocultamenu
+{
+	
+	display: none;
+	bottom:0;
+	left: 90%;
+	color:#333;
+	position:fixed;
+	z-index: 5;
+}
+
+#op
+{
+	background: url('../img/outlets.png');
+	color: #ddd;
+	display: none;
+}
+
+#op h2
+{
+	box-shadow: inset 0 -7px 15px #000;
+	color: #fff;
+	padding: 0 0 0 .3em;
+	margin: 0;
+}
+
+#op div
+{
+	background: url('../img/footer-bg.png');
+	text-align: center;
+	background-size: 100%;
+	padding: 1em 0;
+}
+
+#res ul
+{
+	border-radius: 5px;
+	border: 2px solid #aaa;
+	padding: 0;
+	overflow: hidden;
+}
+
+#res ul li
+{
+	border: 1px solid #ccc;
+	box-shadow: inset 0 -2px 10px #aaa;
+	text-align: left;
+	padding: 0 0 0 .1em;
+	list-style: none;
+	width: 110%;
+}
+
+#res ul li img
+{
+	
+	background-color: rgba(255,255,255,0.5);
+	vertical-align: top;
+	overflow: hidden;
+	height: 100px;
+	width: 100px;
+}
+
+#res ul li div[data-icon="g"]
+{
+	color: rgba(31, 163, 47, 0.53);
+	display: inline-block;
+	font-size: 1.5em;
+	height: 100%;
+	margin-top: 1em;
+}
+
+#res ul li .titulo
+{
+	font-weight: bold;
+}
+#res ul li .des
+{
+	font-weight: normal;
+	font-size: .8em;
+}
+
+#res ul li .info
+{
+	
+	display: inline-block;
+	padding: 0 0 0 .5em;
+	vertical-align: top;
+	width: 45%;
+}
+
+#res .marco
+{
+	border: 2px solid #999;
+	width: 95%;
+	margin: 0 auto;
+	height: 80%;
+}
+
+#bar
+{
+	background-color:rgba(255,255,255,.5);
+	bottom: 0;
+	display: none;
+	position: fixed;
+	text-align: center;
+	padding: 0 0 .5em 0;
+	width: 100%;
+}
+
+#bar>div
+{
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	background-color: #d13838;
+	box-shadow: inset 0 -5px 10px #a10808;
+	font-size: 1.5em;
+	color: #eee;
+	height: 34px;
+	margin: 0 auto;
+	width: 34px;
+}
+
+#tbuscar
+{
+	background-color:rgba(44, 126, 248, 0.73);
+	border: 2px solid #ddd;
+	border-radius: 0 0 .5em .5em;
+	text-align: center;
+	color: #fff;
+	height: 1.5em;
+	text-shadow: 1px 2px 3px #666;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#tbuscar::-webkit-input-placeholder 
+{
+    color: rgba(21, 95, 21, 0.28);
+    text-shadow:none;
+
+}
+#tbuscar:-moz-placeholder
+ {
+ 	color: rgba(21, 95, 21, 0.28);
+    text-shadow:none;
+ }
+
+ /*  bordes distintivos*/
+ .Metro
+ {
+	border-radius: 0 35% 0 0;
+ }
+
+  .MetroBus
+ {
+	border-radius: 50% ;
+	
+ }
+
+/* Clases de headers */
+.Metro-1
+{
+	background-color: #f16c9b;
+}
+.Metro-2
+{
+	background-color: #0066a6;
+}
+.Metro-3
+{
+	background-color: #9e9a36;
+}
+.Metro-4
+{
+	background-color: #72c4b8;
+}
+.Metro-5
+{
+	background-color: #f7d417;
+}
+.Metro-6
+{
+	background-color: #cf2038;
+}
+.Metro-7
+{
+	background-color: #e66722;
+}
+.Metro-8
+{
+	background-color: #00923f;
+}
+.Metro-9
+{
+	background-color: #8f5444;
+}
+.Metro-A
+{
+	background-color: #991a91;
+}
+.Metro-B
+{
+	background-color: #b9bab5;
+}
+.Metro-12
+{
+	background-color: #b9bab5;
+}
+.MetroBus-1
+{
+	background-color: #d13838;
+}
+.MetroBus-2
+{
+	background-color: #893994;
+}
+.MetroBus-3
+{
+	background-color: #74bb45;
+}
+.MetroBus-4
+{
+	background-color: #f78f1e;
+}
+.TrenLigero-1
+{
+	background-color: #1e4695;
+}
+
+
+ @media(min-width: 700px){
+ 	h1
+ 	{
+ 		box-shadow: 0 5px 10px #333;
+ 		padding: 15px 0 0 0;
+ 	}
+ }

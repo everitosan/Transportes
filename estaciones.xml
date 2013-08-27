@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<in>
+<Red name="metro" >
+	<metro>
+		<linea>
+			 <estacion coordenadas="19.398258,-99.200189" red="Metro" linea="1" value="Observatorio" >
+			 	Observatorio
+			 	<trans> 0</trans>
+			 	<dir>Calz. Minas de Arena,Col. Acueducto (Salida norte) 
+			 		Av. Río de Tacubaya, Col. Real del Monte (salida sur)</dir>
+			</estacion>
+			 <estacion coordenadas="19.403439°, -99.187102°" red="Metro" linea="1" value="Tacubaya" />		 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Juanacatlán" />				 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Chapultepec" />				 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Sevilla" />		
+			 <estacion coordenadas="" red="Metro" linea="1" value="Insurgentes" />				 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Cuauhtémoc" />			 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Balderas" /> 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Salto del Agua" />
+			 <estacion coordenadas="" red="Metro" linea="1" value="Isabel la Católica" />
+			 <estacion coordenadas="" red="Metro" linea="1" value="Pino Suárez" />				 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Merced" />			
+			 <estacion coordenadas="" red="Metro" linea="1" value="Candelaria	" />			 
+			 <estacion coordenadas="" red="Metro" linea="1" value="San Lázaro" />				 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Moctezuma" />			 
+			 <estacion coordenadas="" red="Metro" linea="1" value="Balbuena" /> 			
+			 <estacion coordenadas="" red="Metro" linea="1" value="Blvd. Puerto Aéreo" />		
+			 <estacion coordenadas="" red="Metro" linea="1" value="Gómez Farías" />		
+			 <estacion coordenadas="" red="Metro" linea="1" value="Zaragoza" /> 			
+			 <estacion coordenadas="" red="Metro" linea="1" value="Pantitlán" >
+			 <trans> 3 </trans>
+			 <dir>Av. Río Churubusco y Talleres gráficos Col. Agricola Pantitlán y Adolfo Lopez Mateos</dir>
+			 </estacion>		
+		</linea>
+
+
+		<linea> 
+			<estacion coordenadas="" red="Metro" linea="2" value="Cuatro Caminos"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Panteones"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Tacuba"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Cuitláhuac"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Popotla"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Colegio Militar"/>
+		  	<estacion coordenadas="" red="Metro" linea="2" value="Normal"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="San Cosme"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Revolución"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Hidalgo"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Bellas Artes"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Allende"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Zócalo"/>
+		  	<estacion coordenadas="" red="Metro" linea="2" value="Pino Suárez"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="San Antonio Abad"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Chabacano"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Viaducto"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Xola"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Villa de Cortés"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Nativitas"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Portales "/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Ermita"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="General Anaya"/>
+		 	<estacion coordenadas="" red="Metro" linea="2" value="Tasqueña"/>
+		</linea>
+
+		<linea>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Indios Verdes"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Deportivo 18 de marzo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Potrero"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="La Raza"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Tlatelolco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Guerrero"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Hidalgo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Juárez"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Balderas"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Niños Héroes"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Hospital General"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Centro Médico"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Etiopía-Plaza de la Transparencia"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Eugenia"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="División del Norte"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Zapata"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Coyoacán"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Viveros-Derechos humanos"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Miguel Ángel de Quevedo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Copilco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="3"  value="Universidad"/>
+		</linea>
+		<linea>		
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Martín Carrera"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Talismán"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Bondojito"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Consulado"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Canal del Norte"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Morelos"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Candelaria"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Fray Servando"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Jamaica"/>
+		 	 <estacion coordenadas="" red="Metro" linea="4" value="Santa Anita"/>
+		</linea>
+		<linea>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Politécnico"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Instituto del Petróleo"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Autobuses del Norte"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="La Raza"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Misterios"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Valle Gómez"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Consulado"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Eduardo Molina"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Aragón"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Oceanía"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Terminal Aérea"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Hangares"/>
+		 	  <estacion coordenadas="" red="Metro" linea="5" value="Pantitlán"/>
+		</linea>
+		<linea>		
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="El Rosario"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Tezozómoc"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Azcapotzalco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Ferrería"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Norte 45"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Vallejo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Instituto del Petróleo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Lindavista"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Deportivo 18 de marzo"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="La Villa-Basílica"/>
+		 	 <estacion coordenadas="" red="Metro" linea="6"  value="Martín Carrera"/>
+		</linea>
+		<linea>		
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="El Rosario"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Aquiles Serdán"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Camarones"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Refinería"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Tacuba"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="San Joaquín"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Polanco"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Auditorio"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Constituyentes"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Tacubaya"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="San Pedro de los Pinos"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="San Antonio"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Mixcoac"/>
+		 	 <estacion coordenadas="" red="Metro"  linea="7" value="Barranca del Muerto"/>
+		</linea>
+		<linea>		
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Garibaldi-Lagunilla"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Bellas Artes"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="San Juan de Letrán"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Salto del Agua"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Doctores"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Obrera"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Chabacano"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="La Viga"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Santa Anita"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Coyuya"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Iztacalco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Apatlaco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Aculco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Escuadrón 201"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Atlalilco"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Iztapalapa"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Cerro de la Estrella"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="UAM-I"/>
+		 	 <estacion coordenadas="" red="Metro" linea="8" value="Constitución de 1917"/>
+		</linea>
+		<linea>
+			 <estacion coordenadas="" red="Metro" linea="9" value="Tacubaya" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Patriotismo" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Chilpancingo" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Centro Médico" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Lázaro Cárdenas" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Chabacano" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Jamaica" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Mixiuhca" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Velódromo" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Ciudad Deportiva" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Puebla" />
+			 <estacion coordenadas="" red="Metro" linea="9" value="Pantitlán" />
+		</linea>
+		<linea>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Pantitlán"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Agrícola Oriental"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Canal de San Juan"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Tepalcates"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Guelatao"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Peñón Viejo"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Acatitla"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Santa Marta"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="Los Reyes"/>
+			 <estacion coordenadas="" red="Metro" linea="A" value="La Paz"/>
+		</linea>
+		<linea>
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Buenavista" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Guerrero" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Garibaldi-Lagunilla" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Lagunilla" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Tepito" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Morelos" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="San Lázaro" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Ricardo Flores Magón" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Romero Rubio" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Oceanía" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Deportivo Oceanía" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Bosque de Aragón" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Villa de Aragón" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Nezahualcóyotl" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Impulsora" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Río de los Remedios" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Múzquiz" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Ecatepec" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Olímpica" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Plaza Aragón" />
+			 <estacion coordenadas="" red="Metro"  linea="B" value="Ciudad Azteca" />
+		</linea>
+		<linea>
+			 <estacion coordenadas="" red="Metro" linea="12" value="Tlahuác" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Tlaltenco" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Zapotitlán" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Nopalera" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Olivos" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="San Lorenzo Tezonco" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Periférico Oriente" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Calle 11" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Lomas Estrella" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="San Andrés Tomatlán" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Culhuacán" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Atlalilco" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Mexicaltzingo" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Ermita" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Eje Central" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Parque de los Venados" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Zapata" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="20 de Noviembre" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Insurgentes Sur" />
+			 <estacion coordenadas="" red="Metro" linea="12" value="Mixcoac" />
+		</linea>
+	</metro>
+</Red>
+<Red name="metrobus" >
+	<metrobus>
+		<linea>
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Indios Verdes" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Deportivo 18 de marzo" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Euzkaro" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Potrero" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="La Raza" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Circuito" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="San Simón" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Manuel González" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Buenavista I" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Buenavista II" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="El Chopo" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Revolución" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Plaza de la República" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Reforma" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Hamburgo" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Insurgentes" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Durango" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Álvaro Obregón" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Sonora" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Campeche" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Chilpancingo" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Nuevo León" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="La Piedad" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Polifórum" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Nápoles" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Colonia del Valle" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Ciudad de los Deportes" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Parque Hundido" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Félix Cuevas" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Río Churubusco" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Teatro Insurgentes" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="José María Velasco" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Francia" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Olivo" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Altavista" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="La Bombilla" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Dr. Gálvez" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Ciudad Universitaria" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Centro Cultural Universitario" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Perisur" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Villa Olímpica" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Corregidora" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Ayuntamiento" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Fuentes Brotantes" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="Santa Ursula" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="La Joya" />
+			 <estacion coordenadas="" red="MetroBus" linea="1" value="El Caminero" />
+		</linea>
+		<linea>
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Tacubaya" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Parque Lira" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Antonio Maceo" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="De La Salle" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Patriotismo" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Escandón" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Nuevo León" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Viaducto" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Amores" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Etiopía-Plaza de la Transparencia" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Dr. Vértiz" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Centro SCOP" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Álamos" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Xola" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Las Américas" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Andrés Molina Enríquez" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="La Viga" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Coyuya" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Canela" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Tlacotal" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Goma" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Iztacalco" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="UPIICSA" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="El Rodeo" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Río Tecolutla" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Río Mayo" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Rojo Gómez" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Río Frío" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Del Moral" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Leyes de Reforma" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="CCH-Oriente" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Constitución de Apatzingán" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="General Antonio de León" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Canal de San Juan" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Nicolás Bravo" />
+			<estacion coordenadas=""  red="MetroBus" linea="2" value="Tepalcates" />
+		</linea>
+		<linea>
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Tenayuca" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="San José de la Escalera" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Progreso Nacional" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Tres Anegas" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Júpiter" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="La Patera" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Poniente 146" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Montevideo" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Poniente 134" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Poniente 128" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Magdalena de las Salinas" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Coltongo" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Cuitláhuac" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Héroe de Nacozari" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Hospital la Raza" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Circuito" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Tolnahuac" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Tlatelolco" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Ricardo Flores Magón" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Guerrero" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Mina" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Hidalgo" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Juárez" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Balderas" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Cuauhtémoc" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Jardín Pushkin" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Hospital General" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Doctor Márquez" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Centro Médico" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Obrero Mundial" />
+			<estacion coordenadas=""e  red="MetroBus" linea="3" value="Etiopía-Plaza de la Transparencia" />
+		</linea>
+		<linea>
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Buenavista" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Delegación Cuauhtémoc" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Puente de Alvarado" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Museo San Carlos" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Hidalgo" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Bellas Artes" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Teatro Blanquita" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="República de Chile" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="República de Argentina" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Teatro del Pueblo" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Morelos" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Ferrocarril de Cintura" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Mixcalco" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Archivo General de la Nación" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="San Lázaro" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Buenavista" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Delegación Cuauhtémoc" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Puente de Alvarado" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Plaza de la Republica" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Glorieta de Colón" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Expo Reforma" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Vocacional 5" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Juárez" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Plaza San Juan" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Eje Central" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="El Salvador" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Isabel la Católica" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Museo de la Ciudad" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Pino Suárez" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Las Cruces" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Circunvalación" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="La Merced" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Mercado de Sonora" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Cecilio Robelo" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Ing. Eduardo Molina" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Hospital Balbuena" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Moctezuma" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="San Lázaro" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Terminal 1" />
+			<estacion coordenadas="" red="MetroBus" linea="4" value="Terminal 2" />
+		</linea>		
+	</metrobus>
+</Red>
+<Red name="Tren Ligero" >
+	<trenl>
+		<linea>
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Tasqueña" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Las Torres" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Ciudad Jardín" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="La Virgen" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Xotepingo" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Nezahualpilli" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Registro Federal" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Textitlán" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="El Vergel" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Estadio Azteca" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Huipulco" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Xomali" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Periférico" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Tepepan" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="La Noria" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Huichapan" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Francisco Goitia" />
+			 <estacion coordenadas="" red="Tren Ligero" linea="1" value="Xochimilco" />
+		</linea>		
+	</trenl>
+</Red>
+
+</in>

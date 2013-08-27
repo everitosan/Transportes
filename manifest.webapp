@@ -1,0 +1,28 @@
+{
+	"name":"Transporte",
+	"description":"Muestra información de los istemas de transporte del D.F.",
+	"launch_path":"/index.html",
+	"icons":{
+		"30":"/icons/icon-30.png",
+		"60":"/icons/icon-60.png",
+		"128":"/icons/icon-128.png"
+			},
+
+	
+	"default_locale":"es",
+	"fullscreen": false,
+	"developer":{
+		"name":"Everardo Sanchez",
+		"url":"http://www.inpixels.com.mx/me"
+	},
+	"permissions":{
+	"geolocation":{
+		"description":"(opcional) Muestra mapas más exactos." 
+		},
+	 "desktop-notification":{
+	 	"description":"Make notifications"
+	 }
+	}
+
+}
+
