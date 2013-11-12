@@ -279,6 +279,60 @@ header h2
     text-shadow:none;
  }
 
+
+
+ .iconores
+ {
+ 	border: 1px solid #ccc;
+ 	border-radius: 50%;
+ 	height: 200px;
+ 	margin: 3em auto;
+ 	position: relative;
+ 	width: 200px;
+ }
+
+ .iconores .circuloopc
+ {
+ 	background-image: url('../img/greyzz.png');
+	
+	border-radius: 50%;
+ 	position: absolute;
+ 	width: 50px;
+ 	height: 50px;
+ }
+  .iconores  #top
+  {
+  	top: -25px;
+  	left: 75px;
+  }
+   .iconores  #right
+  {
+  	top: 75px;
+  	left: 175px;
+  }
+   .iconores  #bottom
+  {
+  	top: 175px;
+  	left: 75px;
+  }
+   .iconores  #left
+  {
+  	top: 75px;
+  	left: -25px;
+  }
+
+   .iconores .circulo
+   {
+	   	width: 70%;
+	   	margin: 1.3em auto;
+   }
+   .iconores .circulo img
+   {
+	   	box-shadow: 0 3px 2px #333;
+   		border-radius:50%;
+   		width: 100%;
+   }
+
  /*  bordes distintivos*/
  .Metro
  {
@@ -330,7 +384,7 @@ header h2
 }
 .Metro-A
 {
-	background-color: #991a91;
+	background-color: #a4277e;
 }
 .Metro-B
 {

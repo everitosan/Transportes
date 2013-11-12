@@ -2,6 +2,7 @@ var bas; //variable de estaciones en xml
 localStorage.offline;//define uso de mapas
 localStorage.notificaciones;//define uso de notificaciones
 var touchinX,touchinY;//movimiento de los mapas
+var timeouts;//manejo de búsqueda
 
 function inicio()
 {
@@ -31,6 +32,7 @@ function notification()
 
 function base()
 {
+	/*
 	$.ajax({
 			type:"GET",
 			url:"estaciones.xml",
@@ -40,6 +42,19 @@ function base()
 			},	
 			success:function(xml){
 				bas=xml;
+				console.log('success');
+			}
+	});
+	*/
+	$.ajax({
+			type:"POST",
+			url:"estaciones.json",
+			dataType:"json",
+			error:function(jqXHR, status){
+				alert("Error con la base de datos"+status);
+			},	
+			success:function(json){
+				bas=json;
 				console.log('success');
 			}
 	});
@@ -119,10 +134,11 @@ function mmapa()
 
 function mmapa1()
 {
+	itreverse();
 	$('header').html('<h1>Transportes</h1>').appendTo($('header'));
 	$('#op').hide();
 	hidemenu();
-
+/*
 	if(this.id!='opciones')
 	{
 
@@ -135,6 +151,13 @@ function mmapa1()
 	{
 		$('#res').html('');
 		$('#op').show();
+	}*/
+	if(this.id!='opciones')
+	{
+
+		
+			mapa_offline(this.id);
+	
 	}
 
 	window.scrollTo(0,0);
@@ -211,11 +234,13 @@ function errormap(position)
 }
 function buscar()
 { 
+	itreverse();
 	$('#op').hide();
 	$('header').html('<h1>Transportes</h1>').appendTo($('header'));
-setTimeout(function(){
+	clearTimeout(timeouts);
+    timeouts= setTimeout(function(){
 
-
+	console.log('buscando...');
 	var aux=$('<ul></ul>');
 	var estacion= $('#tbuscar').val().toLowerCase();
 	$('#res').html('');
@@ -229,11 +254,11 @@ setTimeout(function(){
 			if(nlinea==NaN)
 			 nlinea=estacion.charAt(6);
 			console.log(parseInt(nlinea));
-			$(bas).find('estacion').each(function(i){
-		
-			if($(this).attr('linea')==nlinea)
+			$(bas).each(function(i){
+			if(this.linea==nlinea)
 			{
-				$('<li class="item" data-ecolor="'+$(this).attr('red')+'-'+$(this).attr('linea')+'"data-red="'+$(this).attr('red').toLowerCase()+'" data-linea="'+$(this).attr('linea')+'" ><img src="img/thumb/'+$(this).attr('value').removeAccents()+'_'+$(this).attr('red').replace(' ','')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des">'+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
+				console.log('ala');
+				$('<li class="item" data-ecolor="'+this.red+'-'+this.linea+'"data-red="'+this.red.toLowerCase()+'" data-linea="'+this.linea+'" ><img src="img/thumb/'+this.nombre.removeAccents()+'_'+this.red.replace(' ','')+'_'+this.linea+'.gif"/><div class="info"><p class="titulo" >'+this.nombre+'</p><p class="des">'+this.red+' línea:'+this.linea+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
 
 				//$('<li><img src="img/thumb/'+$(this).attr('value')+'_'+$(this).attr('red')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des">Red: '+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
 			}
@@ -244,10 +269,11 @@ setTimeout(function(){
 
 		else if(estacion=="metro")
 		{
-			$(bas).find('metro').each(function(i){
-				$(this).find('estacion').each(function(i){
-				$('<li class="item" data-ecolor="'+$(this).attr('red')+'-'+$(this).attr('linea')+'"data-red="'+$(this).attr('red').toLowerCase()+'" data-linea="'+$(this).attr('linea')+'" ><img src="img/thumb/'+$(this).attr('value').removeAccents()+'_'+$(this).attr('red')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des">'+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
-				});
+			$(bas).each(function(i){
+			
+				if(this.red.toLowerCase()=="metro")
+				$('<li class="item" data-ecolor="'+this.red+'-'+this.linea+'"data-red="'+this.red.toLowerCase()+'" data-linea="'+this.linea+'" ><img src="img/thumb/'+this.nombre.removeAccents()+'_'+this.red+'_'+this.linea+'.gif"/><div class="info"><p class="titulo" >'+this.nombre+'</p><p class="des">'+this.red+' línea:'+this.linea+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
+				
 
 			});
 		
@@ -255,10 +281,10 @@ setTimeout(function(){
 		
 		else if(estacion=="metrobus")
 		{	
-			$(bas).find('metrobus').each(function(i){
-				$(this).find('estacion').each(function(i){
-				$('<li class="item" data-ecolor="'+$(this).attr('red')+'-'+$(this).attr('linea')+'"data-red="'+$(this).attr('red').toLowerCase()+'" data-linea="'+$(this).attr('linea')+'" ><img src="img/thumb/'+$(this).attr('value').removeAccents()+'_'+$(this).attr('red')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des">'+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
-				});
+			$(bas).each(function(i){
+				if(this.red.toLowerCase()=="metrobus")
+				$('<li class="item" data-ecolor="'+this.red+'-'+this.linea+'"data-red="'+this.red.toLowerCase()+'" data-linea="'+this.linea+'" ><img src="img/thumb/'+this.nombre.removeAccents()+'_'+this.red+'_'+this.linea+'.gif"/><div class="info"><p class="titulo" >'+this.nombre+'</p><p class="des">'+this.red+' línea:'+this.linea+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
+				
 
 			});
 			
@@ -266,10 +292,12 @@ setTimeout(function(){
 
 		else if(estacion.indexOf("tren")!=-1)
 		{	
-			$(bas).find('trenl').each(function(i){
-				$(this).find('estacion').each(function(i){
-				$('<li class="item" data-ecolor="'+$(this).attr('red').replace(' ','')+'-'+$(this).attr('linea')+'"data-red="'+$(this).attr('red').toLowerCase()+'" data-linea="'+$(this).attr('linea')+'" ><img src="img/thumb/'+$(this).attr('value').removeAccents()+'_'+$(this).attr('red').replace(' ','')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des"> '+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
-				});
+			$(bas).each(function(i){
+					
+				if(this.red.toLowerCase()=="tren ligero")	
+				$('<li class="item" data-ecolor="'+this.red.replace(' ','')+'-'+this.linea+'"data-red="'+this.red.toLowerCase()+'" data-linea="'+this.linea+'" ><img src="img/thumb/'+this.nombre.removeAccents()+'_'+this.red.replace(' ','')+'_'+this.linea+'.gif"/><div class="info"><p class="titulo" >'+this.nombre+'</p><p class="des"> '+this.red+' línea:'+this.linea+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
+				
+				
 
 			});
 			
@@ -277,14 +305,20 @@ setTimeout(function(){
 		//busueda por estacion
 		else
 		{
-
+				/*
 		$(bas).find('estacion').each(function(i){
 		
 			if($(this).attr('value').removeAccents().toLowerCase().indexOf(estacion.removeAccents())!=-1)
 			{
 				$('<li class="item" data-ecolor="'+$(this).attr('red').replace(' ','')+'-'+$(this).attr('linea')+'" data-red="'+$(this).attr('red').toLowerCase()+'" data-linea="'+$(this).attr('linea')+'" ><img class="'+$(this).attr('red')+'" src="img/thumb/'+$(this).attr('value').removeAccents()+'_'+$(this).attr('red').replace(' ','')+'_'+$(this).attr('linea')+'.gif"/><div class="info"><p class="titulo" >'+$(this).attr('value')+'</p><p class="des">'+$(this).attr('red')+' línea:'+$(this).attr('linea')+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
 			}
+		});*/
+		$(bas).each(function(i){
+			if(this.nombre.removeAccents().toLowerCase().indexOf(estacion.removeAccents())!=-1)
+				$('<li class="item" data-ecolor="'+this.red.replace(' ','')+'-'+this.linea+'" data-red="'+this.red.toLowerCase()+'" data-linea="'+this.linea+'" ><img class="'+this.red+'" src="img/thumb/'+this.nombre.removeAccents()+'_'+this.red.replace(' ','')+'_'+this.linea+'.gif"/><div class="info"><p class="titulo" >'+this.nombre+'</p><p class="des">'+this.red+' línea:'+this.linea+'</p></div> <div data-icon="g" ></div> </li>').appendTo(aux);
+
 		});
+
 
 		}
 	}
@@ -293,8 +327,24 @@ setTimeout(function(){
 	$('#res').append(aux);
 
 	//listener de items
-	$('.item').on('click', estacionenmapa);
-},800);
+	//$('.item').on('click', estacionenmapa);
+	$('.item').on('click', estaciong);
+},500);
+}
+
+function estaciong()
+{
+	var tit=$(this).children('.info').children('.titulo').text();
+	
+	$('#res').html('');
+	$('header').html('');
+	$('<div class="'+$(this).attr('data-ecolor')+'" ></div>').appendTo('header');
+	$('<img src="'+$(this).children('img').attr('src') +'" /> <h2 > '+tit+'</h2>').appendTo('header div');
+
+
+	//main
+	$('#res').append('<div class="iconores"><img src="img/btn/book.png" class="circuloopc" id="top"><img src="img/btn/arrow-right.png" class="circuloopc" id="right"><img src="img/btn/earth.png" class="circuloopc" id="bottom"><img src="img/btn/arrow-left.png" class="circuloopc" id="left"><div class="circulo"><img src="" alt=""></div></div>');
+	$('#res  .iconores .circulo img').attr('src',$(this).children('img').attr('src'));
 }
 
 function estacionenmapa()
@@ -444,7 +494,11 @@ function it()
 {
 	$('#bar').show();
 	$('#ocultamenu').fadeOut();
-	$('#ruta').on('touchstart', geolocate);//geolocation
+	$('#ruta').on('click', geolocate);//geolocation
+}
+function itreverse()
+{
+	$('#bar').hide();
 }
 
 function geolocate()
